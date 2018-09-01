@@ -4,52 +4,73 @@
     <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="websiteTemplate08312018.css">
+    <link rel="stylesheet" type="text/css" href="css/websiteTemplate08312018.css">
+    <link rel="stylesheet" type="text/css" href="css/accordian.css">
 </head>
+
 <body>
+	<header>
+	    <h1>Website Template</h1>
+	    <p style="padding-left: 17px">Some content will be here.</p>
+	</header>
 
-<header>
-    <h1>My Website</h1>
-    <p>Some content will be here.</p>
-</header>
+	<nav>
+	    <a href="#">Home</a>
+	    <a href="#">Link</a>
+	    <a href="#">Link</a>
+	    <a href="#" class="right">Help</a>
+	</nav>
 
-<nav>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#">Link</a>
-    <a href="#" class="right">Link</a>
-</nav>
+	<section>
+	    <div class="side">
+	        <h2>About Us</h2>
+	        <h5>Photo of me:</h5>
+	        <div class="fakeimg" style="height:200px;">Image</div>
+	        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
 
-<div class="row">
-    <div class="side">
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>More Text</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div>
-    </div>
-    <div class="main">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-</div>
+	        <h3>More Text</h3>
+	        <p>Lorem ipsum dolor sit ame.</p>
+	        <div class="fakeimg" style="height:60px;">Image</div><br>
+	        <div class="fakeimg" style="height:60px;">Image</div><br>
+	        <div class="fakeimg" style="height:60px;">Image</div>
 
-<footer>
-    <h2>Footer</h2>
-</footer>
+	        <!-- Accordian added by Yung 09012018 -->
+	        <h2>More about us...</h2>
+			<p>In this sction, we provide more information about our company.</p>
+			<button class="accordion">Who We Are?</button>
+			<div class="panel">
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
 
+			<button class="accordion">What We Do</button>
+			<div class="panel">
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<button class="accordion">Our Vision</button>
+			<div class="panel">
+			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+	    </div>
+	    <div class="main">
+	        <h2>TITLE HEADING</h2>
+	        <h5>Title description, Dec 7, 2017</h5>
+	        <div class="fakeimg" style="height:200px;">Image</div>
+	        <p>Some text..</p>
+	        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	        <br>
+	        
+	        <h2>TITLE HEADING</h2>
+	        <h5>Title description, Sep 2, 2017</h5>
+	        <div class="fakeimg" style="height:200px;">Image</div>
+	        <p>Some text..</p>
+	        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+	    </div>
+	</section>
+
+	<footer>
+	    <h2>Footer</h2>
+	</footer>
+	<script src="js/accordian.js"></script>
 </body>
 </html>
