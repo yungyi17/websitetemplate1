@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/websiteTemplate08312018.css">
     <link rel="stylesheet" type="text/css" href="css/accordian.css">
+    <link rel="stylesheet" type="text/css" href="css/dropdownMegaMenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,17 +18,57 @@
 
 	<nav>
 	    <a href="#">Home</a>
-	    <a href="#">Link</a>
-	    <a href="#">Link</a>
+	    <a href="#">Main link 1</a>
+	    <a href="#">Main link 2</a>
+
+	    <!-- Added for dropdown mega menu -->
+	    <div class="dropdown">
+			<button class="dropbtn">Dropdown 
+		      	<i class="fa fa-caret-down"></i>
+		    </button>
+
+		    <div class="dropdown-content">
+		      	<div class="header">
+		        	<p>Some menu information will be added here.</p>
+		      	</div>   
+		      	<div class="row">
+			        <div class="column">
+			          	<h3>Sub section 1</h3>
+			          	<a href="#">Sublink 1</a>
+			          	<a href="#">Sublink 2</a>
+			          	<a href="#">Sublink 3</a>
+			        </div>
+		        	<div class="column">
+		          		<h3>Sub section 2</h3>
+		          		<a href="#">Sublink 1</a>
+		          		<a href="#">Sublink 2</a>
+		          		<a href="#">Sublink 3</a>
+		        	</div>
+		        	<div class="column">
+		          		<h3>Sub section 3</h3>
+		          		<a href="#">Sublink 1</a>
+		          		<a href="#">Sublink 2</a>
+		          		<a href="#">Sublink 3</a>
+		        	</div>
+		        	<div class="column">
+		          		<h3>Sub section 4</h3>
+		          		<a href="#">Sublink 1</a>
+		          		<a href="#">Sublink 2</a>
+		          		<a href="#">Sublink 3</a>
+		        	</div>
+		      	</div>
+		    </div>
+		</div>
+		<!-- End of mega menu -->
+
 	    <a href="#" class="right">Help</a>
 	</nav>
 
 	<section>
 	    <div class="side">
 	        <h2>About Us</h2>
-	        <h5>Photo of me:</h5>
-	        <div class="fakeimg" style="height:200px;">Image</div>
-	        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+	        <div class="fakeimg" style="height:200px;background: #eee;">Some photo</div>
+	        <p>Some text about us in lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
 
 	        <h3>More Text</h3>
 	        <p>Lorem ipsum dolor sit ame.</p>
@@ -51,25 +93,49 @@
 			<div class="panel">
 			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
+			<!-- End of accordion -->
+
 	    </div>
 	    <div class="main">
-	        <h2>TITLE HEADING</h2>
-	        <h5>Title description, Dec 7, 2017</h5>
-	        <div class="fakeimg" style="height:200px;">Image</div>
+	        <h2>SOME TITLE</h2>
+	        <h5>Title description</h5>
+	        <div class="fakeimg" style="height:200px; background: #eee;">Some image...</div>
 	        <p>Some text..</p>
 	        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 	        <br>
-	        
-	        <h2>TITLE HEADING</h2>
-	        <h5>Title description, Sep 2, 2017</h5>
-	        <div class="fakeimg" style="height:200px;">Image</div>
+
+	        <h2>SOME TITLE</h2>
+	        <h5>Title description</h5>
+	        <div class="fakeimg" style="height:200px; background: #eee;">Image</div>
 	        <p>Some text..</p>
 	        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 	    </div>
 	</section>
 
 	<footer>
-	    <h2>Footer</h2>
+		<div class="flex-container">
+		  	<div>
+		  		<h5>Footer section 1</h5>
+			    <a href="#">Some link 1</a>
+			    <a href="#">Sublink 2</a>
+			    <a href="#">Sublink 3</a>
+			</div>
+		  	<div>
+		  		<h5>Footer section 1</h5>
+			    <a href="#">Sublink 1</a>
+			    <a href="#">Sublink 2</a>
+			    <a href="#">Sublink 3</a>
+		  	</div>
+		  	<div>
+		  		<h5>Footer section 1</h5>
+			    <a href="#">Sublink 1</a>
+			    <a href="#">Sublink 2</a>
+			    <a href="#">Sublink 3</a>
+		  	</div>  
+		</div>
+	    <div class="copyright">
+	    	&copy;All right reserved. 1234 Myaddress, USA
+	    </div>
 	</footer>
 	<script src="js/accordian.js"></script>
 </body>
