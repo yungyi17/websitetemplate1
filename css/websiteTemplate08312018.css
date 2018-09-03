@@ -29,6 +29,7 @@ nav {
 
 /* Style the navigation bar links */
 nav a {
+    position: sticky;
     float: left;
     display: block;
     color: white;

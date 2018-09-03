@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/websiteTemplate08312018.css">
     <link rel="stylesheet" type="text/css" href="css/accordian.css">
     <link rel="stylesheet" type="text/css" href="css/dropdownMegaMenu.css">
+    <link rel="stylesheet" type="text/css" href="css/overlay.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -55,13 +56,12 @@
 		          		<a href="#">Sublink 1</a>
 		          		<a href="#">Sublink 2</a>
 		          		<a href="#">Sublink 3</a>
-		        	</div>
+		        	</div>		       
 		      	</div>
 		    </div>
 		</div>
 		<!-- End of mega menu -->
-
-	    <a href="#" class="right">Help</a>
+		<a href="#" class="right" onclick="openNav()">Help</a>
 	</nav>
 
 	<section>
@@ -78,7 +78,7 @@
 
 	        <!-- Accordian added by Yung 09012018 -->
 	        <h2>More about us...</h2>
-			<p>In this sction, we provide more information about our company.</p>
+			<p>In this sction, we provide information using accordion feature. Click plus sign below to see more information.</p>
 			<button class="accordion">Who We Are?</button>
 			<div class="panel">
 			  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -137,6 +137,18 @@
 	    	&copy;All right reserved. 1234 Myaddress, USA
 	    </div>
 	</footer>
+
+	<div id="myNav" class="overlay">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<div class="overlay-content">
+		    <a href="#">FAQ</a>
+		    <a href="#">About Us</a>
+		    <a href="#">Our Services</a>
+		    <a href="#">Contact Us</a>
+  		</div>
+	</div>
+
 	<script src="js/accordian.js"></script>
+	<script src="js/overlay.js"></script>
 </body>
 </html>
