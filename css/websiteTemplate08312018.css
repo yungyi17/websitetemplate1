@@ -74,6 +74,17 @@ section {
     padding: 20px;
 }
 
+/* Added for sticky menu 09102018 */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + section {
+	padding-top: 47px;
+}
+
 /* Fake image, just for this example */
 .fakeimg {
     background-color: #aaa;
